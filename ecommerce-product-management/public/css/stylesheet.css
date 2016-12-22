@@ -1,0 +1,178 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    position: relative;
+    top: 50px;
+    text-align: center;
+}
+
+nav {
+    width: 100%;
+    height: 50px;
+    background: #f3f3f3;
+    position: absolute;
+    top: 0;
+}
+
+nav > a:first-child {
+    position: relative;
+    margin-left: 50px;
+}
+
+nav > a {
+    font-size: 18px;
+    margin-left: 50px;
+    position: relative;
+    top: 12px;
+}
+
+.col_row {
+    max-width: 900px;
+    margin: 0 auto;
+    position: relative;
+    top: 100px;
+    width: 100%;
+    padding: 10px;
+}
+
+.col_item {
+    width: 24.25%;
+    height: 200px;
+    float: left;
+    border: 1px solid #cecece;
+    margin-right: 1%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+@media (max-width: 820px) {
+    .col_item {
+        width: 49%;
+    }
+
+    .col_item:nth-child(2n) {
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 420px) {
+    .col_item {
+        width: 100%;
+        margin-right: 0;
+    }
+}
+
+.col_item:nth-child(1n) {
+    margin-left: 0;
+}
+
+.col_item:nth-child(4n) {
+    margin-right: 0;
+}
+
+.col_item a {
+    display: block;
+    text-align: center;
+    font-size: 18px;
+
+}
+
+.create_form {
+    margin: 0 auto;
+    width: 175px;
+    position: relative;
+    top: 100px;
+}
+
+.create_form_wrapper {
+    border: 1px solid #cecece;
+    width: 500px;
+    height: 550px;
+    margin: 0 auto;
+}
+
+.col_img {
+    display: block;
+    position: relative;
+    max-height: 120px;
+    max-width:211px;
+    margin: 0 auto;
+    top:5px;
+}
+.col_img-a{
+    min-height:125px;
+}
+
+.col_item p {
+    font-size: 18px;
+    text-align: center;
+    position: relative;
+    top: 15px;
+}
+
+.col_item p > b {
+    color: #ff8300;
+}
+
+.item_container {
+    margin: 0 auto;
+    position: relative;
+    width: 300px;
+    height: 500px;
+    margin-top: 100px;
+}
+
+.item_container img {
+    width: 300px;
+    height: auto;
+}
+
+.item_title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.item_desc_title {
+    text-align: center;
+
+    font-size: 18px;
+}
+
+.item_desc {
+    font-size: 15px;
+    display: block;
+
+}
+
+.item_desc_container {
+    margin-top: 20px;
+    border: 1px solid black;
+    min-height: 200px;
+    padding: 10px;
+}
+
+.item_price {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.item_price b {
+    color: #ff8300;
+}
+
+.btn {
+    margin-top: 20px;
+}
+
+.alert {
+    top: 50px;
+    position: relative;
+    width: 100%;
+    padding:10px;
+    text-align:center;
+}
