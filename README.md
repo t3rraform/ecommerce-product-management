@@ -1,5 +1,5 @@
 # ecommerce-product-management
-A simple Php custom MVC project E-Commerce alike, that can manage and store products with MySQL.
+A simple PHP custom MVC project E-Commerce alike, that can manage and store products with MySQL.
 
 <h2>Functions: </h2>
 
